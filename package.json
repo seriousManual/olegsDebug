@@ -1,0 +1,29 @@
+{
+  "name": "orchestrator",
+  "version": "1.0.0",
+  "description": "orchestrator orchestrates",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsy-jam-es/orchestrator.git"
+  },
+  "keywords": [
+    "orchestrator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsy-jam-es/orchestrator/issues"
+  },
+  "homepage": "https://github.com/jsy-jam-es/orchestrator#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.2",
+    "primus": "^7.0.1",
+    "websockets": "^0.2.0",
+    "ws": "^2.3.1"
+  }
+}
